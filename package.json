@@ -1,0 +1,38 @@
+{
+  "name": "node-combo",
+  "description": "a simple HTTP static-file server module, which support combo server also, inspired by node-static",
+  "url": "https://github.com/DDFE/node-combo",
+  "keywords": [
+    "http",
+    "static",
+    "combo",
+    "file",
+    "server"
+  ],
+  "author": {
+    "name": "huangyi",
+    "email": "ustbhuangyi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DDFE/node-combo"
+  },
+  "main": "./lib/main",
+  "bin": {
+    "combo": "bin/cli.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "optimist": ">=0.3.4",
+    "colors": ">=0.6.0",
+    "mime": ">=1.2.9"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DDFE/node-combo/issues"
+  },
+  "homepage": "https://github.com/DDFE/node-combo"
+}
